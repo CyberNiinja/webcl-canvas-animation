@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Canvas Animations</title>
+		<script src="explosion.js"></script>
+		<script src="melt.js"></script>
+		<style>
+			.container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			.dist {
+				margin-top: 10px;
+				flex-direction: row;
+			}
+			#canvas {
+				height: 800px;
+				width: 800px;
+				border: rgb(0, 0, 0) 1px solid;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!--Canvas with 400x400 pixels-->
+			<canvas id="canvas" height="400" width="400"> </canvas>
+			<div class="dist">
+				<button onclick="window.requestAnimationFrame(explode)">
+					Explosion
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
