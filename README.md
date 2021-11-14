@@ -2,7 +2,7 @@
 
 animations with html canvas for FHNW webclients module
 
-## Resources used:
+### Resources used:
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 
